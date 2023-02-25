@@ -4,10 +4,12 @@ import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import com.phonebook.main.Entity.Contact;
 import com.phonebook.main.Repository.ContactRepository;
 
+@Service
 public class ContactServiceImpl implements ContactService{
 
 	@Autowired
